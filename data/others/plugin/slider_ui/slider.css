@@ -1,0 +1,91 @@
+/* コンフィグ画面 */
+/* バー部分の長さ規定し、要素を非表示に */
+input[type="range"] {
+    /*height: 2px;*/
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: none;
+    position: absolute;
+    z-index: 999999;
+}
+/* つまみ部分のデザイン */
+input[type="range"]::-webkit-slider-thumb {
+    border: var(--thumb-border);
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    position: relative;
+    background: var(--thumb-color);
+    background-image: var(--thumb-img);
+    background-size: 100%;
+    width: var(--thumb-width);
+    height: var(--thumb-height);
+    -moz-border-radius: var(--thumb-radius);
+    -webkit-border-radius: var(--thumb-radius);
+    border-radius: var(--thumb-radius);
+    z-index: 999;
+}
+[type="range"]:focus,
+[type="range"]:focus::-webkit-slider-thumb,
+[type="range"]:active,
+[type="range"]:active::-webkit-slider-thumb {
+    outline: none;
+}
+.range_base{
+    cursor: pointer;
+    animation: 0.2s;
+    z-index: 999;
+}
+.range_active{
+    position:absolute;
+    z-index: 999;
+}
+
+/* スイッチ */
+input[type="checkbox"]{
+    position: absolute;
+    opacity: 1;
+    z-index: 99;
+}
+
+input[type="checkbox"] + label::after{
+    content: "";
+    position: absolute;
+    z-index: 999;
+    transition: 0.2s;
+    display: block;
+    left: 0;
+    top: var(--thumb_top);
+    background: var(--thumb-color);
+    background-image: var(--thumb-img);
+    background-size: 100%;
+    width: var(--thumb-width);
+    height: var(--thumb-height);
+    border: var(--thumb-border);
+    -moz-border-radius: var(--thumb-radius);
+    -webkit-border-radius: var(--thumb-radius);
+    border-radius: var(--thumb-radius);
+}
+input[type="checkbox"]:checked + label{
+    background: var(--active_color);
+}
+input[type="checkbox"]:checked + label::after{
+    left: var(--thumb-move);
+}
+
+div.range_tip::before{
+    content: "";
+    display: var(--tip_tail);
+    /*
+    width: var(--tip_width);
+    height: var(--tip_height);
+    */
+    position: absolute;
+    top: var(--tip_tail_arrow);
+    left: calc(var(--tip_width) / 4);
+    border: calc(var(--tip_width) / 4) solid transparent;
+    border-bottom: var(--tip_tail_bottom);
+    border-top: var(--tip_tail_top);
+    z-index: -1;
+}
