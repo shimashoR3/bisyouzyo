@@ -1,4 +1,3 @@
-# bisyouzyo
 ========== ========== ==========
 び少女  ver.1.0.0
 ========== ========== ==========
@@ -199,6 +198,8 @@ On-Jin ～音人～（https://on-jin.com/）
 効果音工房（https://umipla.com/）
 hitoshi by Senses Circuit（https://www.senses-circuit.com）
 びたちー素材館（http://www.vita-chi.net/sozai1.htm） 
+ティラノスクリプトのデフォルトプロジェクト（http://tyrano.jp）
+
 
 《ティラノスクリプト用プラグイン》
 さくた（@skt_order）｜https：//skt-pnt.netlify.app
