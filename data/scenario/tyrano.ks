@@ -169,6 +169,7 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 ;システムボタンを非表示にするなど
         [hidemenubutton]
         [playbgm storage="healing16.mp3"]
+        [stopse]
         @jump storage="replay.ks" 
         
     [endif]
