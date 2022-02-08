@@ -15,9 +15,9 @@
 [plugin name="alreadyreadskip_ex"]
 [plugin name="system_swipe" hide_button="false"]
 ;ビルド時にオン
-; [plugin name="close_dialog"]
+[plugin name="close_dialog"]
 ;ビルド時にオフ
-[plugin name="tsex"]
+;[plugin name="tsex"]
 
 
 ;外部ファイル読み込み
