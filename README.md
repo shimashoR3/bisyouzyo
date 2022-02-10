@@ -280,8 +280,5 @@ LinkData
 Web :<http://www.edu.pref.shizuoka.jp/shimada-ch/home.nsf/IndexFormView?OpenView>  
 電話：０５４７－３７－４１６７  
 FAX：０５４７－３５－２３４１  
-  
-◇ 更新履歴 ◇  
-Ver.1.0.4(2022/02/08)  
-バグを修正しました。  
+
   
