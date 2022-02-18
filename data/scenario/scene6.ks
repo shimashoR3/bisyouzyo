@@ -392,7 +392,7 @@
 
 そして、気まずさを残したまま一日を終えた。[p]
 
-[mask time=1000]
+; [mask time=1000]
 [h_douryou time=10]
 
 [end_replay]
