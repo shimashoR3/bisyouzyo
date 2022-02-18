@@ -399,7 +399,7 @@
 #
 そうして僕はマキさんの案内のもと「寄り道したいところ」へ[r2]
 向かうため、この場を後にしたのだった。[p]
-[mask time=1000]
+; [mask time=1000]
 
 [end_replay]
 [cg storage="yuuyuu_rando.jpg"]
