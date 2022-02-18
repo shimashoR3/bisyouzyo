@@ -9,7 +9,7 @@
 [bg storage="black.png" time=10]
 ; [layopt layer="message0" visible=false]
 ; [layopt layer="fix" visible=false]
-[mask_off]
+; [mask_off]
 
 ; ; [image storage="comment1.jpg" layer=0]
 ; ; [wait time=100]
