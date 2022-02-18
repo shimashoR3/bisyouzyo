@@ -1,7 +1,7 @@
 ;静波海岸の翌日
 
 [set_replay name="sa_nobori" storage="scene9.ks"]
-[bg storage="office.jpg" time=10]
+[bg storage="office.jpg" time=100]
 [playbgm storage="healing12.mp3"]
 ; [mask_off]
 
