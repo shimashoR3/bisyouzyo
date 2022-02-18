@@ -7,8 +7,8 @@
 ; 暗いBGM
 [playbgm storage="healing12.mp3"]
 [bg storage="black.png" time=10]
-[layopt layer="message0" visible=false]
-[layopt layer="fix" visible=false]
+; [layopt layer="message0" visible=false]
+; [layopt layer="fix" visible=false]
 [mask_off]
 
 ; [image storage="comment1.jpg" layer=0]
@@ -28,8 +28,8 @@
 [free_filter]
 [freeimage name="comment1_yume.jpg" layer=0]
 [freeimage name="comment2_yume.jpg" layer=0]
-[layopt layer="message0" visible=true]
-[layopt layer="fix" visible=true]
+; [layopt layer="message0" visible=true]
+; [layopt layer="fix" visible=true]
 [bg storage="room.jpg" time=10]
 [mask_off]
 
@@ -195,7 +195,7 @@
 
 
 
-[clearstack]
+
 ; 中ーーーーーーーーーーーーーーーーーーーーーーーーーーー
 [mask time=1000]
 [reset_camera time=10]
@@ -362,9 +362,9 @@
 
 ; 「「「「「「「「「画像回す」」」」」」」」」」」」」」」」[p]
 [bg storage="yuuyuu_rando5.jpg"]
-[bg storage="yuuyuu_rando8.jpg"]
+; [bg storage="yuuyuu_rando8.jpg"]
 [bg storage="yuuyuu_rando9.jpg"]
-[bg storage="yuuyuu_rando7.jpg"]
+; [bg storage="yuuyuu_rando7.jpg"]
 [bg storage="yuuyuu_rando6.jpg"]
 
 #マキさん
