@@ -1,5 +1,5 @@
 ;静波海岸
-[clearstack]
+
 [set_replay name="sizunami_kaigan" storage="scene8.ks"]
 ;時期　12月あたり（遊泳禁止期間）
 [bg storage="sizunami_kaigan.jpg" time=10]
@@ -499,7 +499,7 @@
 
 [playse storage="kaisou.mp3"]
 [mask time=300 color=0xffffff]
-[filter grayscale=100]
+; [filter grayscale=100]
 ; [layopt layer="message0" visible=false]
 ; [layopt layer="fix" visible=false]
 ; [image storage="comment1.jpg" name="comment1" layer=0]
@@ -509,7 +509,7 @@
 [wait time=4000]
 
 [mask time=300 color=0xffffff]
-[free_filter]
+; [free_filter]
 ; ; [layopt layer="message0" visible=true]
 ; ; [layopt layer="fix" visible=true]
 
@@ -522,7 +522,7 @@
 [playse storage="kaisou.mp3"]
 [mask time=300 color=0xffffff]
 ; [free name="comment1" layer=0 ]
-[filter grayscale=100]
+; [filter grayscale=100]
 ; [layopt layer="message0" visible=false]
 ; [layopt layer="fix" visible=false]
 ; [image storage="comment2.jpg" name="comment2" layer=0]
@@ -531,7 +531,7 @@
 [wait time=4000]
 
 [mask time=300 color=0xffffff]
-[free_filter]
+; [free_filter]
 ; [layopt layer="message0" visible=true]
 ; [layopt layer="fix" visible=true]
 ; [free name="comment2" layer=0 ]
