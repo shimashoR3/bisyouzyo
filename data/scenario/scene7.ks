@@ -363,10 +363,12 @@
 ; 「「「「「「「「「画像回す」」」」」」」」」」」」」」」」[p]
 [bg storage="yuuyuu_rando5.jpg"]
 ; [bg storage="yuuyuu_rando8.jpg"]
-[bg storage="yuuyuu_rando9.jpg"]
+; [bg storage="yuuyuu_rando9.jpg"]
 ; [bg storage="yuuyuu_rando7.jpg"]
-[bg storage="yuuyuu_rando6.jpg"]
 
+[mask time=1000]
+[bg storage="yuuyuu_rando6.jpg" time=10]
+[mask_off]
 #マキさん
 「よーし。満喫したしかえろうか。」[p]
 
