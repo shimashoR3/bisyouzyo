@@ -306,7 +306,7 @@
 
 
 
-
+[clearstack]
 [mask time=1000]
 ;回想へ（背景画像変更）
 ;cyber
