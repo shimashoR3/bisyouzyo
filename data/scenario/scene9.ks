@@ -213,8 +213,8 @@
 「〆るぞお前。」[p]
 
 #
-[bg storage="sa_nobori_shopping.jpg"]
-[bg storage="sa_nobori_foodcourt.jpg"]
+[bg storage="sa_nobori_shopping.jpg" time=1000]
+[bg storage="sa_nobori_foodcourt.jpg" time=1000]
 #
 【店内】[p]
 [pname]
