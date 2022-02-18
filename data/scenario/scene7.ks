@@ -3,80 +3,80 @@
 [set_replay name="yuuyuu_rando" storage="scene7.ks"]
 ;その後------------------------------------------------
 ; 記憶のフラッシュバック
-#
-; 暗いBGM
-[playbgm storage="healing12.mp3"]
-; [bg storage="black.png" time=10]
-; [layopt layer="message0" visible=false]
-; [layopt layer="fix" visible=false]
-; [mask_off]
-
-; ; [image storage="comment1.jpg" layer=0]
-; ; [wait time=100]
-; [mask time=150]
-; [filter grayscale=100]
-; [playse storage="kyouhu.mp3"]
-; [image storage="comment1_yume.jpg" layer=0]
-; [mask_off]
-; ; [image storage="comment2.jpg" layer=0]
-; ; [wait time=100]
-
-; ; [mask time=150]
-; ; [image storage="comment2_yume.jpg" layer=0]
+; #
+; ; 暗いBGM
+; [playbgm storage="healing12.mp3"]
+; ; [bg storage="black.png" time=10]
+; ; [layopt layer="message0" visible=false]
+; ; [layopt layer="fix" visible=false]
 ; ; [mask_off]
 
-; [mask time=500]
-; [free_filter]
-; [freeimage name="comment1_yume.jpg" layer=0]
-; ; [freeimage name="comment2_yume.jpg" layer=0]
-; ; [layopt layer="message0" visible=true]
-; ; [layopt layer="fix" visible=true]
+; ; ; [image storage="comment1.jpg" layer=0]
+; ; ; [wait time=100]
+; ; [mask time=150]
+; ; [filter grayscale=100]
+; ; [playse storage="kyouhu.mp3"]
+; ; [image storage="comment1_yume.jpg" layer=0]
+; ; [mask_off]
+; ; ; [image storage="comment2.jpg" layer=0]
+; ; ; [wait time=100]
+
+; ; ; [mask time=150]
+; ; ; [image storage="comment2_yume.jpg" layer=0]
+; ; ; [mask_off]
+
+; ; [mask time=500]
+; ; [free_filter]
+; ; [freeimage name="comment1_yume.jpg" layer=0]
+; ; ; [freeimage name="comment2_yume.jpg" layer=0]
+; ; ; [layopt layer="message0" visible=true]
+; ; ; [layopt layer="fix" visible=true]
+; ; [bg storage="room.jpg" time=10]
+; ; [mask_off]
+
+; ;布団から起き上がる効果音
+; [playse storage="wakeup.mp3" clear=true]
+; バッ！[p]
+
+
+
+; [pname]
+; 「…」[p]
+; #
+; あの日。あいつとあんな別れ方をしてから5日経つ。[p]
+
+; あの出来事せいか、[p]
+
+
+; 以前よりも、よりはっきり。より鮮明に、[r2]
+; あの記憶を夢に見るようになった。[p]
+
+
+; [pname]
+; 「…今日は休日か。」[p]
+
+; #
+; あの日の翌日、僕たちは当然のように会社で顔を合わせるのだが[p]
+
+; ;回想入る音
+; [playse storage="kaisou.mp3"]
+; ; [mask time=300 color=0xffffff]
+; [bg storage="office.jpg" time=10]
+; [filter grayscale=100]
+; [s_douryou time=10]
+; ; [mask_off]
+
+; [pname]
+; 「あ、お、おはよう」[p]
+
+; #同僚
+; 「あぁ」[p]
+; #
+; ; [mask time=300 color=0xffffff]
+; [h_douryou time=10]
+; [free_filter time=10]
 ; [bg storage="room.jpg" time=10]
 ; [mask_off]
-
-;布団から起き上がる効果音
-[playse storage="wakeup.mp3" clear=true]
-バッ！[p]
-
-
-
-[pname]
-「…」[p]
-#
-あの日。あいつとあんな別れ方をしてから5日経つ。[p]
-
-あの出来事せいか、[p]
-
-
-以前よりも、よりはっきり。より鮮明に、[r2]
-あの記憶を夢に見るようになった。[p]
-
-
-[pname]
-「…今日は休日か。」[p]
-
-#
-あの日の翌日、僕たちは当然のように会社で顔を合わせるのだが[p]
-
-;回想入る音
-[playse storage="kaisou.mp3"]
-; [mask time=300 color=0xffffff]
-[bg storage="office.jpg" time=10]
-[filter grayscale=100]
-[s_douryou time=10]
-; [mask_off]
-
-[pname]
-「あ、お、おはよう」[p]
-
-#同僚
-「あぁ」[p]
-#
-; [mask time=300 color=0xffffff]
-[h_douryou time=10]
-[free_filter time=10]
-[bg storage="room.jpg" time=10]
-[mask_off]
 
 …。[p]
 
