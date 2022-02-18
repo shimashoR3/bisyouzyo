@@ -448,7 +448,7 @@
 「...まぁ。」[p]
 #
 
-[s_maki]
+[s_maki time=1000]
 [bg storage="sizunami_kaigan.jpg" time=1000]
 [playbgm storage="emoi.mp3"]
 
