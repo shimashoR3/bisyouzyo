@@ -1,38 +1,36 @@
 ;ゆうゆうランド
-
 [set_replay name="yuuyuu_rando" storage="scene7.ks"]
 ;その後------------------------------------------------
 ; 記憶のフラッシュバック
-; #
-; ; 暗いBGM
+#
+; 暗いBGM
 [playbgm storage="healing12.mp3"]
-; ; [bg storage="black.png" time=10]
-; ; [layopt layer="message0" visible=false]
-; ; [layopt layer="fix" visible=false]
-; ; [mask_off]
+[bg storage="black.png" time=10]
+[layopt layer="message0" visible=false]
+[layopt layer="fix" visible=false]
+[mask_off]
 
-; ; ; [image storage="comment1.jpg" layer=0]
-; ; ; [wait time=100]
-; ; [mask time=150]
-; ; [filter grayscale=100]
-; ; [playse storage="kyouhu.mp3"]
-; [image storage="comment1_yume.jpg" layer=0]
-; ; [mask_off]
-; ; ; [image storage="comment2.jpg" layer=0]
+; [image storage="comment1.jpg" layer=0]
 ; [wait time=100]
+[mask graphic="noise.gif" time=150]
+[filter grayscale=100]
+[playse storage="kyouhu.mp3"]
+[image storage="comment1_yume.jpg" layer=0]
+[mask_off]
+; [image storage="comment2.jpg" layer=0]
+; [wait time=100]
+[mask graphic="noise.gif" time=150]
+[image storage="comment2_yume.jpg" layer=0]
+[mask_off]
 
-; ; ; [mask time=150]
-; [image storage="comment2_yume.jpg" layer=0]
-; ; ; [mask_off]
-; [wait time=100]
-; ; [mask time=500]
-; ; [free_filter]
-; [freeimage name="comment1_yume.jpg" layer=0]
-; [freeimage name="comment2_yume.jpg" layer=0]
-; ; ; [layopt layer="message0" visible=true]
-; ; ; [layopt layer="fix" visible=true]
-; ; [bg storage="room.jpg" time=10]
-; ; [mask_off]
+[mask time=500]
+[free_filter]
+[freeimage name="comment1.jpg" layer=0]
+[freeimage name="comment2.jpg" layer=0]
+[layopt layer="message0" visible=true]
+[layopt layer="fix" visible=true]
+[bg storage="room.jpg" time=10]
+[mask_off]
 
 ;布団から起き上がる効果音
 [playse storage="wakeup.mp3" clear=true]
@@ -58,25 +56,26 @@
 #
 あの日の翌日、僕たちは当然のように会社で顔を合わせるのだが[p]
 
-; ;回想入る音
+;回想入る音
 [playse storage="kaisou.mp3"]
-; ; [mask time=300 color=0xffffff]
+[mask time=300 color=0xffffff]
 [bg storage="office.jpg" time=10]
-; [filter grayscale=100]
+[filter grayscale=100]
 [s_douryou time=10]
-; ; [mask_off]
+[mask_off]
 
 [pname]
 「あ、お、おはよう」[p]
 
 #同僚
 「あぁ」[p]
-; #
-; ; [mask time=300 color=0xffffff]
+
+[mask time=300 color=0xffffff]
 [h_douryou time=10]
-; [free_filter time=10]
+#
+[free_filter time=10]
 [bg storage="room.jpg" time=10]
-; [mask_off]
+[mask_off]
 
 …。[p]
 
@@ -281,7 +280,7 @@
 子供たちと目が合う。それと同時に彼らは目を逸らすと[r2]
 ;効果音　子供　叫ぶ
 [playse storage="himei.mp3"]
-[chara_hide name="kodomo_yuuyuu" time=1000]
+[chara_hide name="kodomo_yuuyuu" time=10]
 [chara_hide name="kodomo_yuuyuu2"]
 笑い声なのか悲鳴なのかわからない声とともに[p]
 どこかへ走って行ってしまった。[p]
@@ -361,14 +360,12 @@
 
 
 ; 「「「「「「「「「画像回す」」」」」」」」」」」」」」」」[p]
-; [bg storage="yuuyuu_rando5.jpg"]
-; [bg storage="yuuyuu_rando8.jpg"]
-; [bg storage="yuuyuu_rando9.jpg"]
-; [bg storage="yuuyuu_rando7.jpg"]
+[bg storage="yuuyuu_rando5.jpg"]
+[bg storage="yuuyuu_rando8.jpg"]
+[bg storage="yuuyuu_rando9.jpg"]
+[bg storage="yuuyuu_rando7.jpg"]
+[bg storage="yuuyuu_rando6.jpg"]
 
-; [mask time=1000]
-; [bg storage="yuuyuu_rando6.jpg"]
-; [mask_off]
 #マキさん
 「よーし。満喫したしかえろうか。」[p]
 
@@ -399,7 +396,7 @@
 #
 そうして僕はマキさんの案内のもと「寄り道したいところ」へ[r2]
 向かうため、この場を後にしたのだった。[p]
-; [mask time=1000]
+[mask time=1000]
 
 [end_replay]
 [cg storage="yuuyuu_rando.jpg"]
