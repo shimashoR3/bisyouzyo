@@ -449,7 +449,7 @@
 #
 
 [s_maki]
-[bg storage="sizunami_kaigan.jpg"]
+[bg storage="sizunami_kaigan.jpg" time=1000]
 [playbgm storage="emoi.mp3"]
 
 
@@ -497,16 +497,16 @@
 
 ;森作成のやつ入れる（パワポで作ったコメント欄
 
-; [playse storage="kaisou.mp3"]
+[playse storage="kaisou.mp3"]
 ; [mask time=300 color=0xffffff]
 ; ; [filter grayscale=100]
 ; ; [layopt layer="message0" visible=false]
 ; ; [layopt layer="fix" visible=false]
-; ; [image storage="comment1.jpg" name="comment1" layer=0]
+[image storage="comment1.jpg" name="comment1" layer=0]
 ; [mask_off]
-; #
-; 確かに…
-; [wait time=4000]
+#
+確かに…
+[wait time=4000]
 
 ; [mask time=300 color=0xffffff]
 ; ; [free_filter]
@@ -514,7 +514,7 @@
 ; ; ; [layopt layer="fix" visible=true]
 
 ; [mask_off]
-; [p]
+[p]
 
 
 
@@ -525,16 +525,17 @@
 ; ; [filter grayscale=100]
 ; ; [layopt layer="message0" visible=false]
 ; ; [layopt layer="fix" visible=false]
-; ; [image storage="comment2.jpg" name="comment2" layer=0]
+[image storage="comment2.jpg" name="comment2" layer=0]
 ; [mask_off]
 
-; [wait time=4000]
+[wait time=4000]
 
 ; [mask time=300 color=0xffffff]
 ; ; [free_filter]
 ; ; [layopt layer="message0" visible=true]
 ; ; [layopt layer="fix" visible=true]
-; ; [free name="comment2" layer=0 ]
+; [free name="comment2" layer=0 ]
+[freeimage layer=0]
 ; [mask_off]
 
 
