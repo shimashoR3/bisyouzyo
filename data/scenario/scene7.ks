@@ -195,7 +195,7 @@
 
 
 
-
+[clearstack]
 ; 中ーーーーーーーーーーーーーーーーーーーーーーーーーーー
 [mask time=1000]
 [reset_camera time=10]
