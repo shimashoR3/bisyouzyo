@@ -499,7 +499,7 @@
 
 ; [playse storage="kaisou.mp3"]
 ; [mask time=300 color=0xffffff]
-[filter grayscale=100]
+; [filter grayscale=100]
 ; [layopt layer="message0" visible=false]
 ; [layopt layer="fix" visible=false]
 [image storage="comment1.jpg" name="comment1" layer=0]
@@ -531,7 +531,7 @@
 [wait time=4000]
 
 ; [mask time=300 color=0xffffff]
-[free_filter]
+; [free_filter]
 ; [layopt layer="message0" visible=true]
 ; [layopt layer="fix" visible=true]
 [free name="comment2" layer=0 ]
