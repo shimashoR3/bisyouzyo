@@ -310,9 +310,9 @@
 ; [mask time=1000]
 ;回想へ（背景画像変更）
 ;cyber
-[h_maki time=10]
+[h_maki time=100]
 [playbgm storage="cyber45.mp3"]
-[bg storage="cyber.jpg"]
+[bg storage="cyber.jpg" time=1000]
 ; [mask_off]
 
 僕はね、昔から小説というものが大好きだったんだ。[p]
