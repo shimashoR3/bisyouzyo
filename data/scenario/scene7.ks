@@ -70,10 +70,9 @@
 
 #同僚
 「あぁ」[p]
-
+#
 [mask time=300 color=0xffffff]
 [h_douryou time=10]
-#
 [free_filter time=10]
 [bg storage="room.jpg" time=10]
 [mask_off]
