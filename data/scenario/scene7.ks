@@ -19,9 +19,9 @@
 [mask_off]
 ; [image storage="comment2.jpg" layer=0]
 ; [wait time=100]
-[mask graphic="noise.gif" time=150]
+; [mask graphic="noise.gif" time=150]
 [image storage="comment2_yume.jpg" layer=0]
-[mask_off]
+; [mask_off]
 
 [mask time=500]
 [free_filter]
