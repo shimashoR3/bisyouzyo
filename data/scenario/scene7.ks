@@ -60,11 +60,11 @@
 
 ;回想入る音
 [playse storage="kaisou.mp3"]
-[mask time=300 color=0xffffff]
+; [mask time=300 color=0xffffff]
 [bg storage="office.jpg" time=10]
 [filter grayscale=100]
 [s_douryou time=10]
-[mask_off]
+; [mask_off]
 
 [pname]
 「あ、お、おはよう」[p]
@@ -72,7 +72,7 @@
 #同僚
 「あぁ」[p]
 #
-[mask time=300 color=0xffffff]
+; [mask time=300 color=0xffffff]
 [h_douryou time=10]
 [free_filter time=10]
 [bg storage="room.jpg" time=10]
