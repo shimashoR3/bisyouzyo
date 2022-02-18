@@ -281,7 +281,7 @@
 子供たちと目が合う。それと同時に彼らは目を逸らすと[r2]
 ;効果音　子供　叫ぶ
 [playse storage="himei.mp3"]
-[chara_hide name="kodomo_yuuyuu" time=10]
+[chara_hide name="kodomo_yuuyuu" time=1000]
 [chara_hide name="kodomo_yuuyuu2"]
 笑い声なのか悲鳴なのかわからない声とともに[p]
 どこかへ走って行ってしまった。[p]
