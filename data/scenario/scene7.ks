@@ -16,47 +16,47 @@
 ; ; [mask time=150]
 ; ; [filter grayscale=100]
 ; ; [playse storage="kyouhu.mp3"]
-; ; [image storage="comment1_yume.jpg" layer=0]
+[image storage="comment1_yume.jpg" layer=0]
 ; ; [mask_off]
 ; ; ; [image storage="comment2.jpg" layer=0]
-; ; ; [wait time=100]
+[wait time=100]
 
 ; ; ; [mask time=150]
-; ; ; [image storage="comment2_yume.jpg" layer=0]
+[image storage="comment2_yume.jpg" layer=0]
 ; ; ; [mask_off]
-
+[wait time=100]
 ; ; [mask time=500]
 ; ; [free_filter]
-; ; [freeimage name="comment1_yume.jpg" layer=0]
-; ; ; [freeimage name="comment2_yume.jpg" layer=0]
+[freeimage name="comment1_yume.jpg" layer=0]
+[freeimage name="comment2_yume.jpg" layer=0]
 ; ; ; [layopt layer="message0" visible=true]
 ; ; ; [layopt layer="fix" visible=true]
 ; ; [bg storage="room.jpg" time=10]
 ; ; [mask_off]
 
-; ;布団から起き上がる効果音
-; [playse storage="wakeup.mp3" clear=true]
-; バッ！[p]
+;布団から起き上がる効果音
+[playse storage="wakeup.mp3" clear=true]
+バッ！[p]
 
 
 
-; [pname]
-; 「…」[p]
-; #
-; あの日。あいつとあんな別れ方をしてから5日経つ。[p]
+[pname]
+「…」[p]
+#
+あの日。あいつとあんな別れ方をしてから5日経つ。[p]
 
-; あの出来事せいか、[p]
-
-
-; 以前よりも、よりはっきり。より鮮明に、[r2]
-; あの記憶を夢に見るようになった。[p]
+あの出来事せいか、[p]
 
 
-; [pname]
-; 「…今日は休日か。」[p]
+以前よりも、よりはっきり。より鮮明に、[r2]
+あの記憶を夢に見るようになった。[p]
 
-; #
-; あの日の翌日、僕たちは当然のように会社で顔を合わせるのだが[p]
+
+[pname]
+「…今日は休日か。」[p]
+
+#
+あの日の翌日、僕たちは当然のように会社で顔を合わせるのだが[p]
 
 ; ;回想入る音
 [playse storage="kaisou.mp3"]
