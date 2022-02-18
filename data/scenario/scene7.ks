@@ -5,7 +5,7 @@
 ; 記憶のフラッシュバック
 ; #
 ; ; 暗いBGM
-; [playbgm storage="healing12.mp3"]
+[playbgm storage="healing12.mp3"]
 ; ; [bg storage="black.png" time=10]
 ; ; [layopt layer="message0" visible=false]
 ; ; [layopt layer="fix" visible=false]
