@@ -4,7 +4,7 @@
 ;時期　12月あたり（遊泳禁止期間）
 [bg storage="sizunami_kaigan.jpg" time=10]
 [playbgm storage="nami1.mp3"]
-[mask_off]
+; [mask_off]
 
 #
 遊び疲れた僕たちは最後に静波海岸に行くことにした。[r2]
