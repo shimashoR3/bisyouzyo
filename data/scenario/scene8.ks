@@ -306,7 +306,7 @@
 
 
 
-[clearstack]
+
 [mask time=1000]
 ;回想へ（背景画像変更）
 ;cyber
@@ -500,28 +500,31 @@
 [playse storage="kaisou.mp3"]
 [mask time=300 color=0xffffff]
 [filter grayscale=100]
-[layopt layer="message0" visible=false]
-[layopt layer="fix" visible=false]
+; [layopt layer="message0" visible=false]
+; [layopt layer="fix" visible=false]
 [image storage="comment1.jpg" name="comment1" layer=0]
 [mask_off]
 
+確かに…
 [wait time=4000]
 
-[mask time=300 color=0xffffff]
-[free_filter]
-[layopt layer="message0" visible=true]
-[layopt layer="fix" visible=true]
-[free name="comment1" layer=0 ]
-[mask_off]
+; [mask time=300 color=0xffffff]
+; [free_filter]
+; ; [layopt layer="message0" visible=true]
+; ; [layopt layer="fix" visible=true]
 
-確かに…[p]
+; [mask_off]
+[p]
+
+
 
 ;森作成のやつ入れる（絵
 [playse storage="kaisou.mp3"]
 [mask time=300 color=0xffffff]
-[filter grayscale=100]
-[layopt layer="message0" visible=false]
-[layopt layer="fix" visible=false]
+[free name="comment1" layer=0 ]
+; [filter grayscale=100]
+; [layopt layer="message0" visible=false]
+; [layopt layer="fix" visible=false]
 [image storage="comment2.jpg" name="comment2" layer=0]
 [mask_off]
 
@@ -529,9 +532,8 @@
 
 [mask time=300 color=0xffffff]
 [free_filter]
-[free_filter]
-[layopt layer="message0" visible=true]
-[layopt layer="fix" visible=true]
+; [layopt layer="message0" visible=true]
+; [layopt layer="fix" visible=true]
 [free name="comment2" layer=0 ]
 [mask_off]
 
