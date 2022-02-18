@@ -1,5 +1,5 @@
 ;静波海岸
-
+[clearstack]
 [set_replay name="sizunami_kaigan" storage="scene8.ks"]
 ;時期　12月あたり（遊泳禁止期間）
 [bg storage="sizunami_kaigan.jpg" time=10]
@@ -494,7 +494,7 @@
 「それに君の作品。不評の嵐と言っていたが、[r2]
 そうじゃないものもあったんじゃない？」[p]
 
-#
+
 ;森作成のやつ入れる（パワポで作ったコメント欄
 
 ; [playse storage="kaisou.mp3"]
@@ -504,7 +504,7 @@
 ; [layopt layer="fix" visible=false]
 [image storage="comment1.jpg" name="comment1" layer=0]
 ; [mask_off]
-
+#
 確かに…
 [wait time=4000]
 
