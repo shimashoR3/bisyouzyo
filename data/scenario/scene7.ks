@@ -5,34 +5,34 @@
 ; 記憶のフラッシュバック
 #
 ; 暗いBGM
-[playbgm storage="healing12.mp3"]
-[bg storage="black.png" time=10]
-; [layopt layer="message0" visible=false]
-; [layopt layer="fix" visible=false]
-[mask_off]
-
-; [image storage="comment1.jpg" layer=0]
-; [wait time=100]
-[mask time=150]
-[filter grayscale=100]
-[playse storage="kyouhu.mp3"]
-[image storage="comment1_yume.jpg" layer=0]
-[mask_off]
-; [image storage="comment2.jpg" layer=0]
-; [wait time=100]
-
-; [mask time=150]
-; [image storage="comment2_yume.jpg" layer=0]
+; [playbgm storage="healing12.mp3"]
+; [bg storage="black.png" time=10]
+; ; [layopt layer="message0" visible=false]
+; ; [layopt layer="fix" visible=false]
 ; [mask_off]
 
-[mask time=500]
-[free_filter]
-[freeimage name="comment1_yume.jpg" layer=0]
-; [freeimage name="comment2_yume.jpg" layer=0]
-; [layopt layer="message0" visible=true]
-; [layopt layer="fix" visible=true]
-[bg storage="room.jpg" time=10]
-[mask_off]
+; ; [image storage="comment1.jpg" layer=0]
+; ; [wait time=100]
+; [mask time=150]
+; [filter grayscale=100]
+; [playse storage="kyouhu.mp3"]
+; [image storage="comment1_yume.jpg" layer=0]
+; [mask_off]
+; ; [image storage="comment2.jpg" layer=0]
+; ; [wait time=100]
+
+; ; [mask time=150]
+; ; [image storage="comment2_yume.jpg" layer=0]
+; ; [mask_off]
+
+; [mask time=500]
+; [free_filter]
+; [freeimage name="comment1_yume.jpg" layer=0]
+; ; [freeimage name="comment2_yume.jpg" layer=0]
+; ; [layopt layer="message0" visible=true]
+; ; [layopt layer="fix" visible=true]
+; [bg storage="room.jpg" time=10]
+; [mask_off]
 
 ;布団から起き上がる効果音
 [playse storage="wakeup.mp3" clear=true]
@@ -361,7 +361,7 @@
 
 
 ; 「「「「「「「「「画像回す」」」」」」」」」」」」」」」」[p]
-[bg storage="yuuyuu_rando5.jpg"]
+; [bg storage="yuuyuu_rando5.jpg"]
 ; [bg storage="yuuyuu_rando8.jpg"]
 ; [bg storage="yuuyuu_rando9.jpg"]
 ; [bg storage="yuuyuu_rando7.jpg"]
