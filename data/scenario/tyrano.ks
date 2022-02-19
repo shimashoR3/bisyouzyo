@@ -155,7 +155,17 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
         [mask time=1000]
         [clearfix]
         [button graphic="button_replay.png" name="menu_button,end_replay" x=1280 y=10 fix=true storage="tyrano.ks"  target="*end_replay"]
-        [setting]
+
+        @layopt layer=message0 visible=true
+        [layopt layer=0 visible=true]
+        [layopt layer=1 visible=true]
+        [start_keyconfig]
+;固定ボタン
+        [button name="role_button,menu_button,hover" role="menu" graphic="button_menu.png" x=1600 y=10]
+        [button name="role_button" role="skip" graphic="button_skip.png" enterimg="button_skip2.png" x=1350 y=760]
+        [button name="role_button" role="auto" graphic="button_auto.png" enterimg="button_auto2.png" x=1500 y=760]
+        [button name="role_button" role="backlog" graphic="button_log.png" enterimg="button_log2.png" x=1650 y=760]
+        [button name="role_button" role="window" graphic="button_hide.png" x=1780 y=820]
 ; [playbgm storage="beautiful_cityscape.mp3"]
     [endif]
 [endmacro]
