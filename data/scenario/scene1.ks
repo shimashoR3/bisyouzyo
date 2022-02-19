@@ -1,14 +1,6 @@
 ;小堤山公園
 
 [set_replay name="kodutumiyama_kouen" storage="scene1.ks"]
-; 暗いBGM
-[playbgm storage="healing12.mp3"]
-[bg storage="black.png" time=10]
-[layopt layer="message0" visible=false]
-[layopt layer="fix" visible=false]
-[mask_off]
-
-
 #
 
 [playbgm storage="beautiful_cityscape.mp3"]
