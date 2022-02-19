@@ -3,7 +3,7 @@
 [set_replay name="sa_nobori" storage="scene9.ks"]
 [bg storage="office.jpg" time=1000]
 [playbgm storage="healing12.mp3"]
-; [mask_off]
+[mask_off]
 
 #
 今日も、いつも通りの時間に出社した。[r2]
