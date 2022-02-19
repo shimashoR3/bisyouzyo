@@ -10,7 +10,7 @@
 ;プラグイン読み込み
 [plugin name="slider_ui"]
 [plugin name="a_s_ico"]
-[plugin name="menu_se" se_clickse="se_tap.mp3"]
+; [plugin name="menu_se" se_clickse="se_tap.mp3"]
 [plugin name="glinks" button_width=400]
 [plugin name="alreadyreadskip_ex"]
 [plugin name="system_swipe" hide_button="false"]
