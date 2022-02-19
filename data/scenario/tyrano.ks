@@ -152,7 +152,7 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
     [else]
 ; 回想モード時
 ;        [eval exp="tf.flag_replay=true"] 
-        [mask time=1000]
+; [mask time=1000]
         [clearfix]
         [button graphic="button_replay.png" name="menu_button,end_replay" x=1280 y=10 fix=true storage="tyrano.ks"  target="*end_replay"]
         [setting]
@@ -188,8 +188,8 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 
 ;固定ボタン
 [button name="role_button,menu_button,hover" role="menu" graphic="button_menu.png" x=1600 y=10]
-[button name="role_button" role="skip" graphic="button_skip.png" enterimg="button_skip2.png" x=0 y=0]
-[button name="role_button" role="auto" graphic="button_auto.png" enterimg="button_auto2.png" x=0 y=300]
+[button name="role_button" role="skip" graphic="button_skip.png" enterimg="button_skip2.png" x=1350 y=760]
+[button name="role_button" role="auto" graphic="button_auto.png" enterimg="button_auto2.png" x=1500 y=760]
 [button name="role_button" role="backlog" graphic="button_log.png" enterimg="button_log2.png" x=1650 y=760]
 [button name="role_button" role="window" graphic="button_hide.png" x=1780 y=820]
 
