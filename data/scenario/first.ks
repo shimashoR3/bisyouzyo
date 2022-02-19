@@ -7,9 +7,6 @@
 ;ログ記録停止
 [nolog]
 
-;プラグイン読み込
-[plugin name="menu_se" se_clickse="se_tap.mp3"]
-[plugin name="glinks" button_width=400]
 
 
 
