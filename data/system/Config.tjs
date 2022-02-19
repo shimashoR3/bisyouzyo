@@ -61,9 +61,9 @@
 // ◆ 画面サイズ
 // scWidth に画面の幅、scHeight に画面の高さをピクセル単位で指定します。
 
-;scWidth = 1920
+;scWidth = 1280
 
-;scHeight = 1080
+;scHeight = 720
 
 
 // ◆ チャットノベル形式
