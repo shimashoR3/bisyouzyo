@@ -714,7 +714,7 @@
 
 #
 ぼくは静波海岸を後にした。[p]
-; [mask time=1000]
+[mask time=1000]
 [chara_hide name="ozisan_sizunami"]
 [end_replay]
 [cg storage="sizunami_kaigan.jpg"]
