@@ -9,7 +9,7 @@
 [mask graphic="noise.gif" time=150]
 [playse storage="noise.mp3" volume=50]
 [mask_off]
-
+#
 …。[p]
 
 [pname]
