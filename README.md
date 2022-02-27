@@ -246,6 +246,9 @@ Licensed under the MIT license - <http://opensource.org/licenses/MIT>
 いっさいの責任を負いかねます。  
 全て自己責任でご利用ください。  
 ゲームを起動した時点で同意されたものとみなされます。  
+
+【プライバシーポリシー】
+https://sites.google.com/shizuoka-shimasho.com/shimasho-privacy-policy/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0&pli=1
   
 【著作権について】  
 営利・非営利、個人・団体・企業問わず、この作品のキャラクター、  
