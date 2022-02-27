@@ -37,6 +37,7 @@
 [dialog type="confirm" text="別サイトを開きます。よろしいですか？" target="*yes" target_cancel="*no" label_ok="はい" label_cancel="いいえ"]
 
 *yes
+[breakgame]
 [iscript]
 window.open("https://sites.google.com/shizuoka-shimasho.com/shimasho-privacy-policy/%E3%83%9B%E3%83%BC%E3%83%A0");
 [endscript]
